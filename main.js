@@ -19,4 +19,11 @@ function convertir(a){
     document.getElementById("salida").innerHTML=concatenar();
     
 }
+function reiniciar() {
+    document.getElementById("entrada").value="";
+    document.getElementById("salida").innerHTML="";
+    document.getElementById("temperatura").style.height =0+"%";
+
+    
+}
 
